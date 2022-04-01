@@ -28,7 +28,8 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 [](gif1-l![](https://i.imgur.com/77T1Oio.gif)
 ink-here)
-![](gif2-link-here)
+![](gif2-lin![](https://i.imgur.com/WCStylH.gif)
+k-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
