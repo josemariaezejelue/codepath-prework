@@ -1,24 +1,37 @@
-# Hello Website (blank)
+# Pre-work - *Memory Game*
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-## What's in this project?
+Submitted by: **NAME**
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+Time spent: **#** hours spent in total
 
-← `index.html`: This is the main HTML page for your site.
+Link to project: (insert your link here, should start with https://glitch.com...)
 
-← `style.css`: CSS files add styling rules to your content.
+## Required Functionality
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+The following **required** functionality is complete:
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
 
-## You built this with Glitch!
+The following **optional** features are implemented:
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
 
-<<<<<<< HEAD
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app!
@@ -51,7 +64,7 @@ If i had more time to work on this project, i would spend time studying and impl
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [JOSEMARIA EZEJELUE]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
