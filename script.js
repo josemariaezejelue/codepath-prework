@@ -4,16 +4,27 @@ const cluePauseTime = 300; //how long to pause in between clues
 const nextClueWaitTime = 300; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.1;  //must be between 0.0 and 1.0
 var guessCounter = 0;
 
+function randomPattern()
+{
+  var pattern =[]
+  for(let i=0;i<8;i++)
+    {
+      pattern[i]=Math.floor(Math.random() * 8);   
+    }
+  console.log(pattern)
+  return pattern
+}
 function startGame(){
     //initialize game variables
     progress = 0;
+  pattern =randomPattern();
     gamePlaying = true;
   // swap the Start and Stop buttons
 document.getElementById("startBtn").classList.add("hidden");
@@ -36,7 +47,9 @@ const freqMap = {
   1: 500.2,
   2: 329.6,
   3: 392,
-  4: 470.2
+  4: 470.2,
+  5: 600.3,
+  6: 800.1
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -107,6 +120,7 @@ function winGame(){
 }
 
 function guess(btn){
+
   console.log("user guessed: " + btn);
   
   if(!gamePlaying){
