@@ -69,6 +69,19 @@ button{
 #button4:active, #button4.lit {
     background:yellow;
 }
+#button5 {
+    background: cyan;
+}
+#button5:active, #button5.lit {
+    background:orange;
+}
+  #button6 {
+    background: red;
+}
+#button6:active, #button6.lit {
+    background:orange;
+}
+
 
 /* images and videos max out at full width */
 img,
